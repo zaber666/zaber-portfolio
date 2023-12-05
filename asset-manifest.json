@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/zaber-portfolio/static/css/main.223d96ef.css",
+    "main.js": "/zaber-portfolio/static/js/main.bcc6277a.js",
+    "static/js/787.c40054fd.chunk.js": "/zaber-portfolio/static/js/787.c40054fd.chunk.js",
+    "static/media/visual_summary2.jpg": "/zaber-portfolio/static/media/visual_summary2.01b19fb232f8c9677cc0.jpg",
+    "static/media/interlaken-3.jpeg": "/zaber-portfolio/static/media/interlaken-3.af65acdaeef8003af263.jpeg",
+    "static/media/buet.png": "/zaber-portfolio/static/media/buet.e374e09a06d0aa2a440b.png",
+    "static/media/IQV.png": "/zaber-portfolio/static/media/IQV.a397eb34a659015d94b4.png",
+    "static/media/cmu.png": "/zaber-portfolio/static/media/cmu.028c81e7f053e60aa3dc.png",
+    "static/media/logo.svg": "/zaber-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/zaber-portfolio/index.html",
+    "main.223d96ef.css.map": "/zaber-portfolio/static/css/main.223d96ef.css.map",
+    "main.bcc6277a.js.map": "/zaber-portfolio/static/js/main.bcc6277a.js.map",
+    "787.c40054fd.chunk.js.map": "/zaber-portfolio/static/js/787.c40054fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.223d96ef.css",
+    "static/js/main.bcc6277a.js"
+  ]
+}

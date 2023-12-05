@@ -1,0 +1,47 @@
+.topbar-container{
+    background-color: #333;
+    height: 70px;
+    position: fixed;   
+    top: 0;           
+    left: 0;           
+    width: 100%;       /* Ensures it spans the full width */
+    /* z-index: 1000; */
+    display: flex;
+    box-shadow: 0 3px 5px -5px rgba(255, 255, 255, 0.8);
+}
+
+.topbar-name{
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.topbar {
+    display: flex;
+    background-color: #333;
+    padding: 10px;
+    justify-content: space-between;
+    margin-left: 5%;
+    /* height: 100%; */
+    
+}
+
+
+
+.topbar-option {
+    margin: 0 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: 500;
+}
+
+.topbar-option:hover {
+    color: #ddd;
+}

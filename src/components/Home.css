@@ -1,0 +1,140 @@
+.home-container {
+    display: flex;
+    margin-top: 70px;
+    
+    background-color: #272935;
+    box-shadow: 0 3px 5px -5px rgba(255, 255, 255, 0.8);
+    
+}
+
+.home-left-half {
+    flex-basis: 40%;
+    margin-bottom: 50px;
+    overflow: auto;
+    background-color: #272935;
+}
+
+.home-right-half {
+    flex-basis: 60%;
+    margin-bottom: 50px;
+    overflow: auto;
+    background-color: #272935;
+}
+
+.profile-picture{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+.home-name{
+    font-size: xx-large;
+    font-weight: 600;
+    margin-left: 20%;
+    color: #fff;
+}
+
+.profile-work1 {
+    font-size: larger;
+    font-weight: 500;
+    margin-left: 20%;
+    margin-top: 3%;
+    color: #fff;
+}
+
+.profile-work2 {
+    font-size: larger;
+    font-weight: 500;
+    margin-left: 20%;
+    color: #fff;
+    margin-top: 1%;
+}
+
+.biography{
+    margin-top: 10%;
+    margin-left: 10%;
+    color: #fff;
+    text-align: left;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.bio-dscr{
+    margin-top: 2%;
+    margin-left: 10%;
+    color: #fff;
+    text-align: left;
+    font-size: larger;
+    font-weight: 400;
+    margin-right: 10%;
+}
+
+.home-elems{
+    margin-top: 4%;
+    margin-left: 10%;
+    color: #fff;
+    display: flex;
+}
+.home-elem-left{
+    flex-basis: 40%;
+    /* background-color: red; */
+}
+.home-elem-right{
+    flex-basis: 60%;
+    /* background-color: green; */
+}
+
+.interest{
+    font-size: x-large;
+    font-weight: 800;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.ul-int{
+    margin-left: 5%;
+    
+}
+.ul-int-itm{
+    text-align: left;
+    font-size: large;
+}
+
+.edu-item{
+    margin-left: 5%;
+    margin-top: 3%;
+    display: flex;
+}
+
+.edu-item-icon{
+    flex-basis: 15%;
+    /* background-color: yellow; */
+}
+
+.edu-item-name {
+    flex-basis: 85%;
+    /* margin-left: -7%; */
+    /* background-color: red; */
+}
+
+.uni-degree{
+    font-size: large;
+    font-weight: 500;
+    text-align: left;
+}
+
+.uni-year{
+    font-size:medium;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.uni-name{
+    font-size: medium;
+    font-weight: 400;
+    text-align: left;
+}
+

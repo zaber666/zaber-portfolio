@@ -37,7 +37,7 @@ const Home = () => {
             </div>
 
             <div className='bio-dscr'>
-                I am a third-year PhD student in the Department of Computer Science at UNC Chapel Hill, where I have the privilege of working with Professor Gedas Bertasius. My primary research focuses on computer vision, video understanding, and multi-modal deep learning.
+                bleh bleh bleh bleh bleh bleh vbleh bleh bleh bleh bleh bleh bleh bleh . My primary research focuses on computer vision, video understanding, and multi-modal deep learning.
             </div>
 
             <div className='bio-dscr' style={{marginTop:'1%'}}>

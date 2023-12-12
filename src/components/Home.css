@@ -138,3 +138,26 @@
     text-align: left;
 }
 
+
+.sum-item{
+    margin-left: 15%;
+    margin-top: 1%;
+    display: flex;
+    color: #fff;
+}
+.sum-item-icon{
+    flex-basis: 8%;
+    
+}
+
+.sum-item-name {
+    flex-basis: 90%;
+}
+
+.sum-itm-dsc{
+    font-size: large;
+    font-weight: 400;
+    text-align: left;
+}
+
+

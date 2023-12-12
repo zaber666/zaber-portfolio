@@ -24,9 +24,9 @@ const Experience = () => {
 
                         <circle cx="80%" cy="385" r="12" stroke="#0a76e7" strokeWidth="1" fill="none" />
 
-                        <line x1="80%" y1="410" x2="80%" y2="660" stroke="#0a76e7" strokeWidth="1" />
+                        {/* <line x1="80%" y1="410" x2="80%" y2="660" stroke="#0a76e7" strokeWidth="1" /> */}
 
-                        <circle cx="80%" cy="680" r="12" stroke="#0a76e7" strokeWidth="1" fill="none" />
+                        {/* <circle cx="80%" cy="680" r="12" stroke="#0a76e7" strokeWidth="1" fill="none" /> */}
 
                     </svg>
                 </div>
@@ -35,7 +35,7 @@ const Experience = () => {
                     <div className='exp-itm'>
                         <div className='exp-itm-title'>
                             <div className='exp-itm-title-logo'>
-                                <img src={buetLogo} className='exp-logo' alt="IQVIA Logo"/>  
+                                <img src={iqviaLogo} className='exp-logo' alt="IQVIA Logo"/>  
                             </div>
 
                             <div className='exp-itm-title-desc'>
@@ -59,15 +59,15 @@ const Experience = () => {
 
                         <div className='exp-itm-points'>
                             <ul className='exp-points-list'>
+                            <li className='exp-points-list-itm'>Research & Development of Generative AI models for health science</li>
                                 <li className='exp-points-list-itm'>Building FastAPI for ML models to communicate with backend</li>
-                                <li className='exp-points-list-itm'>Research & Implementation of Generative AI models for health science</li>
                                 
                             </ul>
                         </div>
                     </div>
 
 
-                    <div className='exp-itm'>
+                    {/* <div className='exp-itm'>
                         <div className='exp-itm-title'>
                             <div className='exp-itm-title-logo'>
                                 <img src={iqviaLogo} className='exp-logo' alt="IQVIA Logo"/>  
@@ -99,7 +99,7 @@ const Experience = () => {
                                 
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
 
 
                     <div className='exp-itm'>
@@ -109,11 +109,11 @@ const Experience = () => {
                             </div>
 
                             <div className='exp-itm-title-desc'>
-                                <div className='exp-itm-title-desc-itm-pos'>Machine Learning Engineer</div>
-                                <div className='exp-itm-title-desc-itm-comp'>IQVIA</div>
+                                <div className='exp-itm-title-desc-itm-pos'>Research Intern</div>
+                                <div className='exp-itm-title-desc-itm-comp'>Xu Lab, Carnegie Mellon University</div>
                                 <div className='exp-itm-title-desc-itm-info'>
                                     <div style={{marginRight:'15px'}}>
-                                        June 2023 - Present
+                                        January 2022 - Present
                                     </div>
 
                                     <div style={{marginRight:'15px'}}>
@@ -121,7 +121,7 @@ const Experience = () => {
                                     </div>
 
                                     <div >
-                                        Dhaka, Bangladesh
+                                        Remote
                                     </div>
                                 </div>
                             </div>
@@ -129,8 +129,8 @@ const Experience = () => {
 
                         <div className='exp-itm-points'>
                             <ul className='exp-points-list'>
-                                <li className='exp-points-list-itm'>Building FastAPI for ML models to communicate with backend</li>
-                                <li className='exp-points-list-itm'>Research & Implementation of Generative AI models for health science</li>
+                                <li className='exp-points-list-itm'>Video Anomaly Detection</li>
+                                <li className='exp-points-list-itm'>Video-Language Joint Learning</li>
                                 
                             </ul>
                         </div>

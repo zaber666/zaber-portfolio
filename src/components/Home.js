@@ -2,7 +2,7 @@ import React from 'react'
 import "./Home.css"
 import myImage from "../interlaken-3.jpeg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import { faGraduationCap, faHandPointRight } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
   return (
@@ -12,17 +12,17 @@ const Home = () => {
 
             <div className='home-name'>Zaber Ibn Abdul Hakim</div>
 
-            <div className='profile-work1'>
-                Machine Learning Engineer; IQVIA
+            {/* <div className='profile-work1'>
+                Machine Learning Engineer
             </div>
 
             <div className='profile-work2'>
-                Research Intern at Xu Lab; CMU
-            </div>
+                Research Intern
+            </div> */}
 
-            <div className='profile-work2'>
+            {/* <div className='profile-work2'>
                 Part-time Lecturer; BUET
-            </div>
+            </div> */}
 
             {/* <div className='profile-work2'>
                 Kaggle Competition Master
@@ -33,16 +33,67 @@ const Home = () => {
 
         <div className='home-right-half'>
             <div className='biography'>
-                Biography
+                Summary
             </div>
 
-            <div className='bio-dscr'>
+            <div className='sum-item'>
+                <div className='sum-item-icon'>
+                    <FontAwesomeIcon icon={faHandPointRight} />
+                </div>
+
+                <div className='sum-item-name'>
+                    <div className='sum-itm-dsc'>Completed Bachelor Degree in Computer Science and Engineer</div>
+                </div>
+            </div>
+
+            <div className='sum-item'>
+                <div className='sum-item-icon'>
+                    <FontAwesomeIcon icon={faHandPointRight} />
+                </div>
+
+                <div className='sum-item-name'>
+                    <div className='sum-itm-dsc'>Working as a Machine Learning Engineer</div>
+                </div>
+            </div>
+
+            <div className='sum-item'>
+                <div className='sum-item-icon'>
+                    <FontAwesomeIcon icon={faHandPointRight} />
+                </div>
+
+                <div className='sum-item-name'>
+                    <div className='sum-itm-dsc'>Research Intern at Xu Lab of Carnegie Mellon Univeristy for 2 years</div>
+                </div>
+
+            </div>
+
+            <div className='sum-item'>
+                <div className='sum-item-icon'>
+                    <FontAwesomeIcon icon={faHandPointRight} />
+                </div>
+
+                <div className='sum-item-name'>
+                    <div className='sum-itm-dsc'>Published 4 Research Paper. One Under Review.</div>
+                </div>
+            </div>
+
+            <div className='sum-item'>
+                <div className='sum-item-icon'>
+                    <FontAwesomeIcon icon={faHandPointRight} />
+                </div>
+
+                <div className='sum-item-name'>
+                    <div className='sum-itm-dsc'>Kaggle Competition Master (1 Gold, 4 Silver, 2 Bronze Medals)</div>
+                </div>
+            </div>
+
+            {/* <div className='bio-dscr'>
                 bleh bleh bleh bleh bleh bleh vbleh bleh bleh bleh bleh bleh bleh bleh . My primary research focuses on computer vision, video understanding, and multi-modal deep learning.
             </div>
 
             <div className='bio-dscr' style={{marginTop:'1%'}}>
                 During the summer of 2023, I had the incredible opportunity to join the FAIR Accel at Meta AI as a Research Scientist Intern. This followed my previous experience as a Machine Learning Intern at Comcast AI during Summer 2022. Before starting my PhD program at UNC, I gained valuable industry experience as a Software Engineer at Samsung R&D Institute. Additionally, I had the honor of serving as a lecturer at the Computer Science Department of the University of Asia Pacific.
-            </div>
+            </div> */}
 
             <div className='home-elems'>
                 <div className='home-elem-left'>
@@ -53,7 +104,7 @@ const Home = () => {
                     <ul className='ul-int'>
                         <li className='ul-int-itm'>Computer Vision</li>
                         <li className='ul-int-itm'>Video Understanding</li>
-                        <li className='ul-int-itm'>Video-Language Multimodl Tasks</li>
+                        <li className='ul-int-itm'>Video-Language Multimodal Tasks</li>
                     </ul>
                 </div>
 

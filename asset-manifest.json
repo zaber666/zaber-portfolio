@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/zaber-portfolio/static/css/main.ce4a4ec7.css",
-    "main.js": "/zaber-portfolio/static/js/main.399cdc16.js",
+    "main.css": "/zaber-portfolio/static/css/main.77ebc89b.css",
+    "main.js": "/zaber-portfolio/static/js/main.3894c12d.js",
     "static/js/787.c40054fd.chunk.js": "/zaber-portfolio/static/js/787.c40054fd.chunk.js",
     "static/media/artifact.jpg": "/zaber-portfolio/static/media/artifact.01b19fb232f8c9677cc0.jpg",
     "static/media/multimodal.png": "/zaber-portfolio/static/media/multimodal.77edc97843592b26ea37.png",
+    "static/media/chimpact.jpg": "/zaber-portfolio/static/media/chimpact.558baf606e4545650a50.jpg",
     "static/media/interlaken-3.jpeg": "/zaber-portfolio/static/media/interlaken-3.af65acdaeef8003af263.jpeg",
     "static/media/videoLang.png": "/zaber-portfolio/static/media/videoLang.92825ea7df456d3ae28d.png",
+    "static/media/covid19.png": "/zaber-portfolio/static/media/covid19.6c6770e152b8efa6c1d8.png",
+    "static/media/nfl.png": "/zaber-portfolio/static/media/nfl.4609268f64538893518c.png",
     "static/media/buet.png": "/zaber-portfolio/static/media/buet.e374e09a06d0aa2a440b.png",
     "static/media/spcup.JPG": "/zaber-portfolio/static/media/spcup.9267bc777cb63f19807b.JPG",
     "static/media/liquid.JPG": "/zaber-portfolio/static/media/liquid.f30150816da63037152b.JPG",
+    "static/media/VinBig.png": "/zaber-portfolio/static/media/VinBig.14a12a0e79f8d4ca405e.png",
+    "static/media/SPS.svg": "/zaber-portfolio/static/media/SPS.9ceeac25898082b4680fcf63fe4cc922.svg",
     "static/media/IQV.png": "/zaber-portfolio/static/media/IQV.a397eb34a659015d94b4.png",
     "static/media/cmu.png": "/zaber-portfolio/static/media/cmu.028c81e7f053e60aa3dc.png",
     "static/media/logo.svg": "/zaber-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/zaber-portfolio/index.html",
-    "main.ce4a4ec7.css.map": "/zaber-portfolio/static/css/main.ce4a4ec7.css.map",
-    "main.399cdc16.js.map": "/zaber-portfolio/static/js/main.399cdc16.js.map",
+    "main.77ebc89b.css.map": "/zaber-portfolio/static/css/main.77ebc89b.css.map",
+    "main.3894c12d.js.map": "/zaber-portfolio/static/js/main.3894c12d.js.map",
     "787.c40054fd.chunk.js.map": "/zaber-portfolio/static/js/787.c40054fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce4a4ec7.css",
-    "static/js/main.399cdc16.js"
+    "static/css/main.77ebc89b.css",
+    "static/js/main.3894c12d.js"
   ]
 }

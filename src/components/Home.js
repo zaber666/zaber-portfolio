@@ -2,7 +2,8 @@ import React from 'react'
 import "./Home.css"
 import myImage from "../interlaken-3.jpeg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGraduationCap, faHandPointRight } from '@fortawesome/free-solid-svg-icons';
+import { faGraduationCap, faHandPointRight, faEnvelope, faSquareEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faKaggle } from '@fortawesome/free-brands-svg-icons';
 
 const Home = () => {
   return (
@@ -12,11 +13,21 @@ const Home = () => {
 
             <div className='home-name'>Zaber Ibn Abdul Hakim</div>
 
-            {/* <div className='profile-work1'>
-                Machine Learning Engineer
+            <div className='profile-work1'>
+                <a href="mailto:zaberhakim666@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faEnvelope} style={{marginRight:'25px', fontSize:'xx-large', color:"#1874be"}}/>
+                </a>
+
+                <a href="https://www.linkedin.com/in/zaber-ibn-abdul-hakim-024010185/" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faLinkedin} style={{marginRight:'25px', fontSize:'xx-large', color:'#0a66c2'}} />
+                </a>
+
+                <a href="https://www.kaggle.com/zaber666" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faKaggle} style={{fontSize:'xx-large', color:"#20beff"}} />
+                </a>
             </div>
 
-            <div className='profile-work2'>
+            {/* <div className='profile-work2'>
                 Research Intern
             </div> */}
 

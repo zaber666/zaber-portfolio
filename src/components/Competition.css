@@ -1,18 +1,18 @@
-.exp-container {
+.com-container {
     display: flex;
     margin-top: 70px;
     background-color: #272935;
     box-shadow: 0 3px 5px -5px rgba(255, 255, 255, 0.8);
 }
 
-.exp-left-half {
-    flex-basis: 30%;
+.com-left-half {
+    flex-basis: 25%;
     overflow: auto;
     /* background-color: #272935; */
     /* background-color: red; */
 }
 
-.exp-txt-holder{
+.com-txt-holder{
     margin-left: 25%;
     text-align: left;
     font-size:  3rem;
@@ -20,8 +20,8 @@
     color: #fff;
 }
 
-.exp-right-half {
-    flex-basis: 70%;
+.com-right-half {
+    flex-basis: 75%;
     overflow: auto;
     background-color: #272935;
     /* background-color: green; */
@@ -29,70 +29,82 @@
     overflow: hidden;
 }
 
-.handle{
-    flex-basis: 15%;
+.com-handle{
+    flex-basis: 10%;
     /* background-color: green; */
 }
 
-.svg-elem{
+.com-svg-elem{
     width: 80%;
     height: 100%;
 }
 
-.exp-itm-holder{
-    flex-basis: 85%;
+.com-itm-holder{
+    flex-basis: 90%;
     /* margin-bottom: 20px; */
     /* overflow: auto; */
 }
-.exp-itm{
+.com-itm{
     background-color: #343a40;
     width: 70%;
-    height: 150px;
+    height: 100px;
     padding: 30px;
     margin-bottom: 8%;
     border-radius: 5px;
     box-shadow: 2px 7px 5px -3px rgba(0, 0, 0, 0.8);
 }
 
-.exp-itm-title{
+.com-itm-title{
     display: flex;
     align-items: left;
 }
 
-.exp-itm-title-logo {
-    flex-basis: 15%;
+.com-itm-title-logo {
+    flex-basis: 10%;
+    /* border: 5px solid red; */
 }
 
-.exp-itm-title-desc{
+.com-itm-title-desc{
     flex-basis: 85%;
+    margin-left: 3%;
 }
 
-.exp-logo{
-    height: 50px;
-    width: 50px;
+.com-logo{
+    height: 100px;
+    width: 120px;
+    /* border: 5px solid red; */
 }
 
-.exp-itm-title-desc-itm-pos{
+.com-itm-title-desc-itm-pos{
     text-align: left;
     /* margin-left: 5%; */
-    font-size: larger ;
-    font-weight: 600;
+    font-size: large;
+    font-weight: 500;
     color: #fff;
-    /* margin-bottom: 2px; */
+    margin-bottom: 5px;
 }
 
-.exp-itm-title-desc-itm-comp{
+.com-itm-title-desc-itm-names{
     text-align: left;
-    font-size: large;
-    font-size: 500;
+    /* margin-left: 5%; */
+    font-size: medium;
+    font-weight: 400;
     color: #fff;
-    /* margin-bottom: 2px; */
+    margin-bottom: 7px;
 }
 
-.exp-itm-title-desc-itm-info{
+.com-itm-title-desc-itm-comp{
     text-align: left;
-    font-size: large;
-    font-size: 400;
+    font-size: medium;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.com-itm-title-desc-itm-info{
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: 300;
     color: #fff;
 
     display: flex;
@@ -100,15 +112,5 @@
 
 .exp-itm-points{
     margin-top: 5%;
-}
-
-.exp-points-list{
-    margin-left: 3%;
-    
-}
-.exp-points-list-itm{
-    text-align: left;
-    font-size: medium;
-    color: #fff;
 }
 

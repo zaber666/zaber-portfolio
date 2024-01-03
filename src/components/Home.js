@@ -53,7 +53,8 @@ const Home = () => {
                 </div>
 
                 <div className='sum-item-name'>
-                    <div className='sum-itm-dsc'>Completed Bachelor Degree in Computer Science and Engineer</div>
+                    <div className='sum-itm-dsc'>Published 2 Research Paper. One Under Review.</div>
+                    
                 </div>
             </div>
 
@@ -84,7 +85,7 @@ const Home = () => {
                 </div>
 
                 <div className='sum-item-name'>
-                    <div className='sum-itm-dsc'>Published 4 Research Paper. One Under Review.</div>
+                    <div className='sum-itm-dsc'>Kaggle Competition Master (1 Gold, 4 Silver, 2 Bronze Medals)</div>
                 </div>
             </div>
 
@@ -94,7 +95,7 @@ const Home = () => {
                 </div>
 
                 <div className='sum-item-name'>
-                    <div className='sum-itm-dsc'>Kaggle Competition Master (1 Gold, 4 Silver, 2 Bronze Medals)</div>
+                <div className='sum-itm-dsc'>Completed Bachelor Degree in Computer Science and Engineer</div>
                 </div>
             </div>
 
@@ -113,9 +114,9 @@ const Home = () => {
                     </div>
 
                     <ul className='ul-int'>
-                        <li className='ul-int-itm'>Computer Vision</li>
+                        <li className='ul-int-itm'>Video-Language Joint Tasks</li>
                         <li className='ul-int-itm'>Video Understanding</li>
-                        <li className='ul-int-itm'>Video-Language Multimodal Tasks</li>
+                        <li className='ul-int-itm'>Computer Vision</li>
                     </ul>
                 </div>
 

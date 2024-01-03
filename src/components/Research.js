@@ -11,7 +11,7 @@ const Research = () => {
         <div className='res-container'>
             <div className='res-left-half'>
                 <div className='res-txt-holder'>
-                    Publication
+                    Research
                 </div>
 
             </div>

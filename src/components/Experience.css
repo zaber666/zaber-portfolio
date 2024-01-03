@@ -1,6 +1,6 @@
 .exp-container {
     display: flex;
-    margin-top: 70px;
+    margin-top: 4%;
     background-color: #272935;
     box-shadow: 0 3px 5px -5px rgba(255, 255, 255, 0.8);
 }
@@ -8,15 +8,13 @@
 .exp-left-half {
     flex-basis: 30%;
     overflow: auto;
-    /* background-color: #272935; */
-    /* background-color: red; */
+
 }
 
 .exp-txt-holder{
-    margin-left: 25%;
+    margin-left: 20%;
     text-align: left;
     font-size:  3rem;
-    font-weight: 500;
     color: #fff;
 }
 
@@ -24,14 +22,12 @@
     flex-basis: 70%;
     overflow: auto;
     background-color: #272935;
-    /* background-color: green; */
     display: flex;
     overflow: hidden;
 }
 
 .handle{
     flex-basis: 15%;
-    /* background-color: green; */
 }
 
 .svg-elem{
@@ -41,15 +37,13 @@
 
 .exp-itm-holder{
     flex-basis: 85%;
-    /* margin-bottom: 20px; */
-    /* overflow: auto; */
 }
 .exp-itm{
     background-color: #343a40;
-    width: 70%;
-    height: 150px;
-    padding: 30px;
-    margin-bottom: 8%;
+    width: 85%;
+    height: 30%;
+    padding: 3%;
+    margin-bottom: 6%;
     border-radius: 5px;
     box-shadow: 2px 7px 5px -3px rgba(0, 0, 0, 0.8);
 }
@@ -68,38 +62,34 @@
 }
 
 .exp-logo{
-    height: 50px;
-    width: 50px;
+    height: 70%;
+    width: 60%;
 }
 
 .exp-itm-title-desc-itm-pos{
     text-align: left;
-    /* margin-left: 5%; */
-    font-size: larger ;
+    font-size: 1.4rem;
     font-weight: 600;
     color: #fff;
-    /* margin-bottom: 2px; */
 }
 
 .exp-itm-title-desc-itm-comp{
     text-align: left;
-    font-size: large;
+    font-size: 1.1rem;
     font-size: 500;
     color: #fff;
-    /* margin-bottom: 2px; */
 }
 
 .exp-itm-title-desc-itm-info{
     text-align: left;
-    font-size: large;
+    font-size: 1.1rem;
     font-size: 400;
     color: #fff;
-
     display: flex;
 }
 
 .exp-itm-points{
-    margin-top: 5%;
+    margin-top: 10px;
 }
 
 .exp-points-list{
@@ -108,7 +98,8 @@
 }
 .exp-points-list-itm{
     text-align: left;
-    font-size: medium;
+    font-size: 0.9rem;
     color: #fff;
+
 }
 

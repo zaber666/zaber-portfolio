@@ -59,11 +59,12 @@ const Experience = () => {
 
                         <div className='exp-itm-points'>
                             <ul className='exp-points-list'>
-                            <li className='exp-points-list-itm'>Research & Development of Generative AI models for health science</li>
-                                <li className='exp-points-list-itm'>Building FastAPI for ML models to communicate with backend</li>
-                                
+                                <li className='exp-points-list-itm'>Research & Development of Generative LLM</li>
+                                <li className='exp-points-list-itm'>Building FastAPI for ML models</li>   
                             </ul>
                         </div>
+
+                        
                     </div>
 
 
@@ -129,8 +130,8 @@ const Experience = () => {
 
                         <div className='exp-itm-points'>
                             <ul className='exp-points-list'>
-                                <li className='exp-points-list-itm'>Video Anomaly Detection</li>
-                                <li className='exp-points-list-itm'>Video-Language Joint Learning</li>
+                                <li className='exp-points-list-itm'>Improving Sentence Component Understanding for Video Grounding</li>
+                                <li className='exp-points-list-itm'>Anomaly Detection from Videos of Laboratory Experiments</li>
                                 
                             </ul>
                         </div>

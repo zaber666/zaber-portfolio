@@ -4,8 +4,20 @@ import myImage from "../interlaken-3.jpeg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGraduationCap, faHandPointRight, faEnvelope, faSquareEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faKaggle } from '@fortawesome/free-brands-svg-icons';
+import scholar from "../googleScholar.png"
+import resumeIcon from "../resumeIcon2.png"
+import pdfUrl from "../CV_Zaber.pdf"
 
 const Home = () => {
+//   const openPdfInNewWindow = () => {
+//         // Replace 'path/to/your/pdf.pdf' with the actual path to your PDF file
+//     // const pdfUrl = '../CV_Zaber.pdf';
+    
+//         // Open the PDF in a new window
+//     window.open(pdfUrl, '_blank');
+//   };
+
+
   return (
     <div className='home-container'>
         <div className='home-left-half'>
@@ -22,9 +34,19 @@ const Home = () => {
                     <FontAwesomeIcon icon={faLinkedin} style={{marginRight:'25px', fontSize:'xx-large', color:'#0a66c2'}} />
                 </a>
 
-                <a href="https://www.kaggle.com/zaber666" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faKaggle} style={{fontSize:'xx-large', color:"#20beff"}} />
+                <a href="https://scholar.google.com/citations?user=fcg9BRAAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+                    <img src={scholar} style={{height:"30px", width:"30px", marginRight:"25px"}}/>
                 </a>
+
+                <a href="https://www.kaggle.com/zaber666" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faKaggle} style={{fontSize:'xx-large', color:"#20beff", marginRight:"25px",}} />
+                </a>
+
+                <a href={pdfUrl} target="_blank" rel="noopener noreferrer">
+                <img src={resumeIcon} style={{height:"35px", width:"35px", cursor:"pointer"}} />
+                </a>
+
+                
             </div>
 
             {/* <div className='profile-work2'>

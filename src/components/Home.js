@@ -6,7 +6,9 @@ import { faGraduationCap, faHandPointRight, faEnvelope, faSquareEnvelope } from 
 import { faLinkedin, faKaggle } from '@fortawesome/free-brands-svg-icons';
 import scholar from "../googleScholar.png"
 import resumeIcon from "../resumeIcon2.png"
-import pdfUrl from "../CV_Zaber.pdf"
+import pdfUrl from "../zaber_resume.pdf"
+// import pdfUrl from "../CV_Zaber.pdf"
+
 
 const Home = () => {
 //   const openPdfInNewWindow = () => {
@@ -75,7 +77,7 @@ const Home = () => {
                 </div>
 
                 <div className='sum-item-name'>
-                    <div className='sum-itm-dsc'>Published 2 Research Paper. One Under Review.</div>
+                    <div className='sum-itm-dsc'>Published 2 Research Paper.</div>
                     
                 </div>
             </div>

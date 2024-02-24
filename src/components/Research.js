@@ -57,7 +57,7 @@ const Research = () => {
                                 
                                 <div className='res-itm-title-desc-itm-names'> <span style={{ textDecoration: 'underline' }}>ZIA Hakim</span><span style={{fontSize:"x-large"}}>*</span>, NH Sarker<span style={{fontSize:"x-large"}}>*</span>, RP Singh, B Paul, A Dabouei, M Xu</div>
 
-                                <div className='res-itm-title-desc-itm-comp'>Under Review at 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</div>
+                                {/* <div className='res-itm-title-desc-itm-comp'>Under Review at 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</div> */}
                                 
                                 {/* <div className='res-itm-title-desc-itm-info'>
                                     We addressed the limitations of existing fake image detection approaches by proposing a dataset of 2.5 million images and a new method to overcome their poor performance on images generated from unseen algorithms.
@@ -122,7 +122,7 @@ const Research = () => {
                                 
                                 <div className='res-itm-title-desc-itm-names'> <span style={{ textDecoration: 'underline' }}>Zaber Ibn Abdul Hakim</span>, Rasman Mubtasim Swargo, Muhammad Abdullah Adnan</div>
 
-                                <div className='res-itm-title-desc-itm-comp'>ArXiv Preprint</div>
+                                {/* <div className='res-itm-title-desc-itm-comp'>ArXiv Preprint</div> */}
                                 
                             </div>
                         </div>
